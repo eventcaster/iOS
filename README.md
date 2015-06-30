@@ -1,6 +1,6 @@
 Overview
 
-Emulator supports even-injection via ECP(Emulator-Control-Panel). However, injecting sensor events via ECP is less intuitive and less convenient. Moreover, while developers inject event, simultaneously touching emulator screen is impossible. The EventCast enables developers to inject sensor and touch events more intuitively by means of real target.
+Emulator supports event-injection via ECP(Emulator-Control-Panel). However, injecting sensor events via ECP is less intuitive and less convenient. Moreover, while developers inject event, simultaneously touching emulator screen is impossible. The EventCast enables developers to inject sensor and touch events more intuitively by means of real target.
 
 EventCast App in the target gathers those events and passes them to emulator controller, which converts and hands them over to Tizen Platform. It is useful for App developers who do not have a Tizen mobile device.
 
@@ -12,7 +12,7 @@ EventCast provides three features.
 
 How to use EventCaster
 
-EventCaster which is the App on target communicates with Tizen E mulator (PC) by TCP/IP . It can connect to Emulator via Wi-Fi.
+EventCaster which is the App on target communicates with Tizen Emulator (PC) by TCP/IP . It can connect to Emulator via Wi-Fi.
 
 
 Prerequisites
